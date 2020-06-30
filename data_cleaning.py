@@ -2,6 +2,7 @@ from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
 from pandas import concat
+
 # load data
 def parse(x):
 	return datetime.strptime(x, '%Y %m %d %H')
