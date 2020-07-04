@@ -4,6 +4,8 @@ A simple weather monitoring and prediction system using Deep Learning(LSTM)
 
 Several weather parameters like temperature,pressure,humidity,PM(Particulate Matter),etc can be collected by IOT sensors and single-board computer-Raspberry Pi 3B. This data is published over the web using MQTT.
 
+The MQTT broker(Mosquito) is running on Raspberry Pi which is also responsible for data acquisition.
+
 The monitoring room can subscribe to this data for performing further analytics. 
 
 For obtaining future weather conditions, a LSTM(Long Short Term Memory) network-special kind of recurrent neural network(RNN) is involved. The framework used for developing the model is Keras.
