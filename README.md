@@ -2,7 +2,7 @@
 
 A simple weather monitoring and prediction system using Deep Learning(LSTM)
 
-Several weather parameters like temperature,pressure,humidity,PM(Particulate Matter),etc can be collected by IOT sensors and edge processor like Raspberry Pi. This data is published over the web using MQTT.
+Several weather parameters like temperature,pressure,humidity,PM(Particulate Matter),etc can be collected by IOT sensors and single-board computer-Raspberry Pi. This data is published over the web using MQTT.
 
 The monitoring room can subscribe to this data for performing further analytics. 
 
